@@ -54,8 +54,8 @@ useEffect(() => {
           <Col xs={12} md={6} xl={7}>
             <span className="tagline">Welcome to my Portfolio</span>
             <h1>{`Daun Kim `}</h1>
-            <span className="wrap">{text}</span>
-            <p>About me dummy text</p>
+            <h2 className="wrap">{text}</h2>
+            <p>Overcoming mountains.</p>
             <button onClick={() => console.log('connect')}>Let's Connect <ArrowRightCircle size={25} /></button>
           </Col>
           <Col xs={12} md={6} xl={5}>
