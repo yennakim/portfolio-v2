@@ -48,8 +48,8 @@ export default function NavBar() {
               <a href="https://github.com/yennakim/"><img src={githubIcon} alt="Github" /></a>
 
             </div>
-            <button className="connect" onClick={() => console.log('connect')}><span>Let's Connect</span>
-            </button>
+            {/* <button className="connect" onClick={() => console.log('connect')}><span>Let's Connect</span>
+            </button> */}
           </span>
         </Navbar.Collapse>
       </Container>
