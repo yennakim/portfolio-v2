@@ -1,6 +1,7 @@
+/* eslint-disable jsx-a11y/anchor-has-content */
 import { Col } from "react-bootstrap";
 
-export default function ProjectCard({ title, description, image }) {
+export default function ProjectCard({ title, description, image, repo, demo }) {
   return (
     <Col sm={6} md={4}>
       <div className="proj-imgbx">
@@ -9,8 +10,8 @@ export default function ProjectCard({ title, description, image }) {
           <h4>{title}</h4>
           <span>{description}</span>
           <div>
-          <button>Repo</button>
-          <button>Live Demo</button>
+          <button className="btn btn-outline-light"><a href={repo}>Repo</a></button>
+          <button className="btn btn-outline-primary"><a href={demo}>Demo</a></button>
           </div>
         </div>
       </div>

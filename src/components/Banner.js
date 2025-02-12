@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import { ArrowRightCircle } from "react-bootstrap-icons";
+// import { ArrowRightCircle } from "react-bootstrap-icons";
 import mountain from '../assets/img/mountain.svg'
 
 export default function Banner() {
@@ -52,11 +52,13 @@ useEffect(() => {
       <Container>
         <Row className="align-items-center">
           <Col xs={12} md={6} xl={7}>
-            <span className="tagline">Welcome to my Portfolio</span>
+            <span className="tagline">Hello! I'm Daun</span>
             <h1>{`Daun Kim `}</h1>
             <h2 className="wrap">{text}</h2>
-            <p>Overcoming mountains.</p>
-            <button onClick={() => console.log('connect')}>Let's Connect <ArrowRightCircle size={25} /></button>
+            <p>I overcome mountains through planning, communication, testing, and documentation </p>
+            <p>My development philosophy centers around building efficient, scalable applications that streamline processes while offering a fluid user experience.</p>
+           
+            {/* <button onClick={() => console.log('connect')}>Let's Connect <ArrowRightCircle size={25} /></button> */}
           </Col>
           <Col xs={12} md={6} xl={5}>
             <img src={mountain} alt="mountain" />
