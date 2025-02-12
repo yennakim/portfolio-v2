@@ -3,7 +3,7 @@ import ProjectCard from "./ProjectCard";
 import colorSharp2 from "../assets/img/color-sharp2.png"
 import afternoonTea from "../assets/img/afternoonTeaLogo.png"
 import takeoff from "../assets/img/takeoffLogo.png"
-import projImg3 from "../assets/img/project-img3.png"
+import selfCheckIn from "../assets/img/self-check-in.png"
 
 export default function Projects() {
 
@@ -25,9 +25,9 @@ export default function Projects() {
       demo: "Not deployed"
     },
     {
-      title: "Therapy&Me",
-      description: "Therapy&Me is a full-stack application designed to help individuals keep track of their therapy sessions, ensuring that no important details are forgotten.",
-      image: projImg3,
+      title: "Self Check-in",
+      description: "Self Check-in is a full-stack application designed to help individuals keep track of their therapy sessions and mental health, ensuring that no important details are forgotten.",
+      image: selfCheckIn,
       tech: "JavaScript, ReactJS, Python, Django",
       repo: "Not deployed",
       demo: "Not deployed",
