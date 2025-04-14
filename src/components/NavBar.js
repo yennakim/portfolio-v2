@@ -47,8 +47,8 @@ export default function NavBar() {
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-              <a href="https://www.linkedin.com/in/daun-kim/"><img src={linkedinIcon} alt="Linkedin" /></a>
-              <a href="https://github.com/yennakim/"><img src={githubIcon} alt="Github" /></a>
+              <a href="https://www.linkedin.com/in/daun-kim/" target="_blank" rel="noreferrer"><img src={linkedinIcon} alt="Linkedin" /></a>
+              <a href="https://github.com/yennakim/" target="_blank" rel="noreferrer"><img src={githubIcon} alt="Github" /></a>
               
             </div>
             <a href={resume} target="_blank" rel="noreferrer">

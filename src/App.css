@@ -264,7 +264,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: block;
 }
 .banner p {
-  color: #B8B8B8;
+  color: #EAE4DD;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
@@ -308,7 +308,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
 }
 .project p {
-  color: #B8B8B8;
+  color: #EAE4DD;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
@@ -425,7 +425,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .footer p {
   font-weight: 400;
   font-size: 14px;
-  color: #B8B8B8;
+  color: #EAE4DD;
   letter-spacing: 0.5px;
   margin-top: 20px;
 }
