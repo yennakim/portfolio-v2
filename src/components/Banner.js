@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import { Col, Container, Row } from "react-bootstrap";
-// import { ArrowRightCircle } from "react-bootstrap-icons";
 import mountain from '../assets/img/mountain.svg'
 
 export default function Banner() {
@@ -57,8 +56,6 @@ useEffect(() => {
             <h2 className="wrap">{text}</h2>
             <p>I overcome mountains through planning, communication, testing, and documentation </p>
             <p>My development philosophy centers around building efficient, scalable applications that streamline processes while offering a fluid user experience.</p>
-           
-            {/* <button onClick={() => console.log('connect')}>Let's Connect <ArrowRightCircle size={25} /></button> */}
           </Col>
           <Col xs={12} md={6} xl={5}>
             <img src={mountain} alt="mountain" />

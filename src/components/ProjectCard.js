@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/anchor-has-content */
 import { Col } from "react-bootstrap";
 
 export default function ProjectCard({ title, description, image, repo, demo }) {

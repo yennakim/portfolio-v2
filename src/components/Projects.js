@@ -1,6 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCard";
-import colorSharp2 from "../assets/img/color-sharp2.png"
 import afternoonTea from "../assets/img/afternoonTeaLogo.png"
 import takeoff from "../assets/img/takeoffLogo.png"
 import selfCheckIn from "../assets/img/self-check-in.png"
@@ -52,7 +51,6 @@ export default function Projects() {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={colorSharp2} alt=""></img>
     </section> 
   )
 }

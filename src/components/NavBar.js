@@ -4,6 +4,8 @@ import logo from '../assets/img/logo.png';
 import linkedinIcon from '../assets/img/linkedin.svg';
 import githubIcon from '../assets/img/github.svg';
 import resume from '../assets/resume.pdf';
+import { Download } from "react-bootstrap-icons";
+
 
 export default function NavBar() {
   const [activeLink, setActiveLink] = useState('home');
@@ -50,7 +52,7 @@ export default function NavBar() {
               
             </div>
             <a href={resume} target="_blank" rel="noreferrer">
-  <button>Resume</button>
+  <button><Download size={20} /> Resume</button>
 </a>
 
           </span>
