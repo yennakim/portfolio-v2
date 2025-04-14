@@ -5,12 +5,10 @@ import javascript from '../assets/img/javascript.svg'
 import reactjs from '../assets/img/react.svg'
 import python from '../assets/img/python.svg'
 import django from '../assets/img/django.svg'
-import colorSharp from '../assets/img/color-sharp.png';
 
 export default function Skills() {
   const responsive = {
     superLargeDesktop: {
-      // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
       items: 5,
     },
@@ -57,7 +55,6 @@ export default function Skills() {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-left" src={colorSharp} alt="background aesthetic" />
     </section>
   );
 }

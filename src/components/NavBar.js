@@ -3,6 +3,9 @@ import { Navbar, Container, Nav } from "react-bootstrap";
 import logo from '../assets/img/logo.png';
 import linkedinIcon from '../assets/img/linkedin.svg';
 import githubIcon from '../assets/img/github.svg';
+import resume from '../assets/resume.pdf';
+import { Download } from "react-bootstrap-icons";
+
 
 export default function NavBar() {
   const [activeLink, setActiveLink] = useState('home');
@@ -44,12 +47,14 @@ export default function NavBar() {
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-              <a href="https://www.linkedin.com/in/daun-kim/"><img src={linkedinIcon} alt="Linkedin" /></a>
-              <a href="https://github.com/yennakim/"><img src={githubIcon} alt="Github" /></a>
-
+              <a href="https://www.linkedin.com/in/daun-kim/" target="_blank" rel="noreferrer"><img src={linkedinIcon} alt="Linkedin" /></a>
+              <a href="https://github.com/yennakim/" target="_blank" rel="noreferrer"><img src={githubIcon} alt="Github" /></a>
+              
             </div>
-            {/* <button className="connect" onClick={() => console.log('connect')}><span>Let's Connect</span>
-            </button> */}
+            <a href={resume} target="_blank" rel="noreferrer">
+  <button><Download size={20} /> Resume</button>
+</a>
+
           </span>
         </Navbar.Collapse>
       </Container>

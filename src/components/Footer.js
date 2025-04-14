@@ -13,8 +13,8 @@ export default function Footer() {
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
             <div className="social-icon">
-              <a href="www.linkedin.com/in/daun-kim"><img src={linkedinIcon} alt="Linkedin logo" /></a>
-              <a href="https://github.com/yennakim"><img src={githubIcon} alt="Github logo" /></a>
+              <a href="https://www.linkedin.com/in/daun-kim" target="_blank" rel="noreferrer"><img src={linkedinIcon} alt="Linkedin logo" /></a>
+              <a href="https://github.com/yennakim" target="_blank" rel="noreferrer"><img src={githubIcon} alt="Github logo" /></a>
             </div>
             <p>© 2025.  All Rights Reserved.</p>
           </Col>
