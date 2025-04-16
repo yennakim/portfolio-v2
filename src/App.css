@@ -124,8 +124,8 @@ span.navbar-text {
     margin-left: 14px;
 }
 .social-icon a {
-    width: 42px;
-    height: 42px;
+    width: 80px;
+    height: 80px;
     background: rgba(217, 217, 217, 0.1);
     display: inline-flex;
     border-radius: 50%;
@@ -137,8 +137,8 @@ span.navbar-text {
 }
 .social-icon a::before {
     content: "";
-    width: 42px;
-    height: 42px;
+    width: 80px;
+    height: 80px;
     position: absolute;
     background-color: #ffffff;
     border-radius: 50%;
@@ -235,6 +235,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	border-color: transparent;
 }
+/* */
 
 /* Banner */
 .banner {
@@ -264,7 +265,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: block;
 }
 .banner p {
-  color: #EAE4DD;
+  color: #B8B8B8;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
@@ -308,7 +309,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
 }
 .project p {
-  color: #EAE4DD;
+  color: #B8B8B8;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
@@ -420,12 +421,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .footer img {
-  width: 26%;
+  width: 50%;
 }
 .footer p {
   font-weight: 400;
-  font-size: 14px;
-  color: #EAE4DD;
+  font-size: 20px;
+  color: #B8B8B8;
   letter-spacing: 0.5px;
   margin-top: 20px;
 }

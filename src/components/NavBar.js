@@ -51,7 +51,7 @@ export default function NavBar() {
               
             </div>
             <a href={resume} target="_blank" rel="noreferrer">
-  <button><Download size={20} /> Resume</button>
+  <button className="rounded"><Download size={20} /> Resume</button>
 </a>
 
           </span>

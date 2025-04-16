@@ -9,8 +9,8 @@ export default function ProjectCard({ title, description, image, repo, demo }) {
           <h4>{title}</h4>
           <span>{description}</span>
           <div>
-          <button className="btn btn-light m-2"><a href={repo}>Repo</a></button>
-          <button className="btn btn-light m-2"><a href={demo}>Demo</a></button>
+          <button className="btn btn-outline-light m-2"><a href={repo}>Repo</a></button>
+          <button className="btn btn-outline-light m-2"><a href={demo}>Demo</a></button>
           </div>
         </div>
       </div>

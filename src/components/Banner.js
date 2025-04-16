@@ -51,7 +51,7 @@ useEffect(() => {
       <Container>
         <Row className="align-items-center">
           <Col xs={12} md={6} xl={7}>
-            <span className="tagline">Hello! I'm Daun</span>
+            <span className="tagline rounded">Hello! I'm Daun</span>
             <h1>{`Daun Kim `}</h1>
             <h2 className="wrap">{text}</h2>
             <p>I overcome mountains through planning, communication, testing, and documentation </p>
