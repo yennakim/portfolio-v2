@@ -124,8 +124,8 @@ span.navbar-text {
     margin-left: 14px;
 }
 .social-icon a {
-    width: 42px;
-    height: 42px;
+    width: 50px;
+    height: 50px;
     background: rgba(217, 217, 217, 0.1);
     display: inline-flex;
     border-radius: 50%;
@@ -137,8 +137,8 @@ span.navbar-text {
 }
 .social-icon a::before {
     content: "";
-    width: 42px;
-    height: 42px;
+    width: 50px;
+    height: 50px;
     position: absolute;
     background-color: #ffffff;
     border-radius: 50%;
@@ -160,7 +160,7 @@ span.navbar-text {
   font-weight: 700;
   color: #fff;
   border: 1px solid #fff;
-  padding: 9px 18px;
+  padding: 12px 24px;
   font-size: 16px;
   margin-left: 18px;
 	position: relative;
@@ -320,7 +320,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .proj-imgbx {
   position: relative;
-  border-radius: 30px;
+  border-radius: 50px;
   overflow: hidden;
   margin-bottom: 24px;
 }
@@ -345,7 +345,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   transition: 0.5s ease-in-out;
   opacity: 0;
   width: 100%;
-  padding: 0 50px;
+  padding: 2rem;
 }
 .proj-imgbx:hover .proj-txtx {
   top: 50%;
@@ -360,8 +360,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .proj-txtx span {
   font-style: italic;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 16px;
   letter-spacing: 0.8px;
+}
+
+.proj-txtx a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.proj-txtx button {
+  background-color: transparent;
 }
 
 .background-image-right {
