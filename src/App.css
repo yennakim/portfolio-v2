@@ -250,7 +250,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 700;
   letter-spacing: 0.8px;
   padding: 8px 10px;
-  background: linear-gradient(90.21deg, rgba(255,167, 0.5) -5.91%, rgba(255,103, 0.5) 111.58%);
+  background-color: #4893AE;
   border: 1px solid rgba(255, 255, 255, 0.5);
   font-size: 20px;
   margin-bottom: 16px;
@@ -326,7 +326,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .proj-imgbx::before {
   content: "";
-  background: linear-gradient(90.21deg, rgba(255,167, 0.5) -5.91%, rgba(255,103, 0.5) 111.58%);
+  background: #4893AE;
   opacity: 0.85;
   position: absolute;
   width: 100%;
@@ -345,6 +345,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   transition: 0.5s ease-in-out;
   opacity: 0;
   width: 100%;
+  padding: 0 50px;
 }
 .proj-imgbx:hover .proj-txtx {
   top: 50%;
