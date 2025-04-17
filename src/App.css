@@ -124,8 +124,8 @@ span.navbar-text {
     margin-left: 14px;
 }
 .social-icon a {
-    width: 80px;
-    height: 80px;
+    width: 50px;
+    height: 50px;
     background: rgba(217, 217, 217, 0.1);
     display: inline-flex;
     border-radius: 50%;
@@ -137,8 +137,8 @@ span.navbar-text {
 }
 .social-icon a::before {
     content: "";
-    width: 80px;
-    height: 80px;
+    width: 50px;
+    height: 50px;
     position: absolute;
     background-color: #ffffff;
     border-radius: 50%;
@@ -160,8 +160,8 @@ span.navbar-text {
   font-weight: 700;
   color: #fff;
   border: 1px solid #fff;
-  padding: 18px 34px;
-  font-size: 18px;
+  padding: 12px 24px;
+  font-size: 16px;
   margin-left: 18px;
 	position: relative;
 	background-color: transparent;
@@ -250,7 +250,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 700;
   letter-spacing: 0.8px;
   padding: 8px 10px;
-  background: linear-gradient(90.21deg, rgba(255,167, 0.5) -5.91%, rgba(255,103, 0.5) 111.58%);
+  background-color: #4893AE;
   border: 1px solid rgba(255, 255, 255, 0.5);
   font-size: 20px;
   margin-bottom: 16px;
@@ -320,13 +320,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .proj-imgbx {
   position: relative;
-  border-radius: 30px;
+  border-radius: 50px;
   overflow: hidden;
   margin-bottom: 24px;
 }
 .proj-imgbx::before {
   content: "";
-  background: linear-gradient(90.21deg, rgba(255,167, 0.5) -5.91%, rgba(255,103, 0.5) 111.58%);
+  background: #4893AE;
   opacity: 0.85;
   position: absolute;
   width: 100%;
@@ -345,6 +345,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   transition: 0.5s ease-in-out;
   opacity: 0;
   width: 100%;
+  padding: 2rem;
 }
 .proj-imgbx:hover .proj-txtx {
   top: 50%;
@@ -359,8 +360,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .proj-txtx span {
   font-style: italic;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 16px;
   letter-spacing: 0.8px;
+}
+
+.proj-txtx a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.proj-txtx button {
+  background-color: transparent;
 }
 
 .background-image-right {
@@ -392,13 +402,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 700;
 }
 
-.skill-slider {
-  width: 80%;
-  margin: 0 auto;
-  position: relative;
-}
 
-.skill-slider .item img {
+.skill img {
   width: 50%;
   margin: 0 auto 15px auto;
 }
