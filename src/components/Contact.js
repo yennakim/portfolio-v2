@@ -7,10 +7,18 @@ export default function Contact() {
   return (
     <section className="contact" id='connect'>
     <Container>
-      <Row className="align-items-center">
-        <Col md={6}></Col>
-      </Row>
+    <Row>
+          <Col>
+            <h2>Contact</h2>
+            <Row className="align-items-center">
+              <h3>Name</h3>
+              <h3>Email</h3>
+              <h3>Message</h3>
+              <button>Submit</button>
+            </Row>
+          </Col>
+        </Row>
     </Container>
     </section>
   )
-}
+};
