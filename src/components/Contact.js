@@ -21,10 +21,11 @@ export default function Contact() {
       })
       .then(
         () => {
-          console.log("SUCCESS!");
+          form.current.reset()
+          alert("Your email has been sent.");
         },
         (error) => {
-          console.log("FAILED...", error.text);
+          console.warn("FAILED...", error.text);
         }
       );
   };
