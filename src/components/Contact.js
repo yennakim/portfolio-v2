@@ -8,9 +8,10 @@ import {
   Form,
   FloatingLabel,
 } from "react-bootstrap";
-
+ 
 export default function Contact() {
   const form = useRef();
+
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -36,7 +37,7 @@ export default function Contact() {
         <Row>
           <Col>
             <h2>Contact</h2>
-            <Row className="align-items-center">
+            <Row className="justify-content-center">
               <Col md={6}>
                 <Form ref={form} onSubmit={sendEmail}>
                   <FloatingLabel controlId="name" label="Name" className="mb-3">
@@ -70,7 +71,7 @@ export default function Contact() {
                     />
                   </FloatingLabel>
 
-                  <Button variant="light" type="submit">
+                  <Button variant="light" type="submit" className="rounded">
                     Submit
                   </Button>
                 </Form>

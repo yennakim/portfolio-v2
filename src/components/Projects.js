@@ -2,14 +2,14 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCard";
 import afternoonTea from "../assets/img/afternoonTeaLogo.png"
 import takeoff from "../assets/img/takeoffLogo.png"
-import selfCheckIn from "../assets/img/self-check-in.png"
+// import selfCheckIn from "../assets/img/self-check-in.png"
 
 export default function Projects() {
 
   const projects = [
     {
       title: "Afternoon Tea",
-      description: "Afternoon Tea is a frontend application built to help users keep track of different tea pairings and allow them to collectively recommend and review them.",
+      description: "Frontend application built to help users keep track of different tea pairings.",
       image: afternoonTea,
       tech: "JavaScript, React Bootstrap, ReactJS, Figma",
       repo: "https://github.com/yennakim/afternoon-tea",
@@ -17,20 +17,20 @@ export default function Projects() {
     },
     {
       title: "Takeoff",
-      description: "Takeoff is a Fullstack application designed to simplify travel planning and organization.",
+      description: "Fullstack application designed to simplify travel planning and organization.",
       image: takeoff,
       tech: "JavaScript, ReactJS, Python, Django",
       repo: "https://github.com/yennakim/takeoff-client",
       demo: "Not deployed"
     },
-    {
-      title: "Self Check-in",
-      description: "Self Check-in is a full-stack application designed to help individuals keep track of their therapy sessions and mental health, ensuring that no important details are forgotten.",
-      image: selfCheckIn,
-      tech: "JavaScript, ReactJS, Python, Django",
-      repo: "Not deployed",
-      demo: "Not deployed",
-    }
+    // {
+    //   title: "Self Check-in",
+    //   description: "Self Check-in is a full-stack application designed to help individuals keep track of their therapy sessions and mental health, ensuring that no important details are forgotten.",
+    //   image: selfCheckIn,
+    //   tech: "JavaScript, ReactJS, Python, Django",
+    //   repo: "Not deployed",
+    //   demo: "Not deployed",
+    // }
     
   ];
   return (
