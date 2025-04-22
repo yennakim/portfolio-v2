@@ -32,7 +32,7 @@ export default function Contact() {
   };
 
   return (
-    <section className="contact" id="contactForm">
+    <section className="contact" id="contact">
       <Container>
         <Row>
           <Col>
