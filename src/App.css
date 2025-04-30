@@ -107,9 +107,9 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
   color: #fff !important;
   letter-spacing: 0.8px;
-  padding: 0 25px;
+  padding: 5px 25px;
   font-size: 18px;
-  opacity: 0.75;
+  opacity: 1;
 }
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
 nav.navbar .navbar-nav a.nav-link.navbar-link.active {
@@ -122,12 +122,14 @@ span.navbar-text {
 .social-icon {
     display: inline-block;
     margin-left: 14px;
+    
 }
 .social-icon a {
     width: 50px;
     height: 50px;
     background: rgba(217, 217, 217, 0.1);
     display: inline-flex;
+    flex-direction: row;
     border-radius: 50%;
     margin-right: 6px;
     align-items: center;
@@ -410,13 +412,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin: 0 auto 15px auto;
 }
 
-.background-image-left {
-  top: 28%;
-  position: absolute;
-  bottom: 0;
-  width: 40%;
-  z-index: -4;
-}
 
 /* FOOTER */
 .footer {
@@ -507,4 +502,20 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .contact form button:hover::before {
   width: 100%;
   color: black;
+}
+
+@media screen and (max-width: 1500px) {
+  .banner .tagline  {
+    opacity: 0;
+  }
+
+  nav.navbar a.navbar-brand {
+    width: 150px;
+    height: 100px;
+  } 
+  .footer .logo {
+    width: 70%;
+    height: 70%;
+  }
+  
 }
